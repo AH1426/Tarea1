@@ -1,0 +1,101 @@
+@page "/Tabla"
+@rendermode InteractiveServer
+
+<PageTitle>Tabla de Multiplicar</PageTitle>
+
+<h3 class="title">Tabla de Multiplicar</h3>
+
+<div class="alert-description">
+    En esta sección podrás pedir cualquier tabla de multiplicar con los múltiplos del 0 al 12
+</div>
+
+<div class="input-container">
+    <label class="label">Número:</label>
+    <input type="number" @bind="numero" class="form-control input" placeholder="Ingresa un número" />
+</div>
+
+@if (numero > 0)
+{
+    <div class="table-container">
+        @for (int A = 0; A <= 12; A++)
+        {
+            <div class="table-item">@numero x @A = @(A * numero)</div>
+        }
+    </div>
+}
+
+@code {
+    private int numero = 0;
+}
+
+<style>
+    body {
+        background-color: #f0f4f8; 
+        font-family: Arial, sans-serif;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 32px; 
+        color: #2c3e50; 
+        text-align: center;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    }
+
+    .alert-description {
+        font-size: 20px; 
+        color: #34495e; 
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #e7f3fe; /* Fondo azul claro */
+        border-left: 6px solid #2196F3; /* Borde azul */
+        border-radius: 5px;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 20px;
+    }
+
+    .label {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px; 
+        transition: border-color 0.3s; 
+    }
+
+    .form-control:focus {
+        border-color: #007bff; 
+        outline: none; 
+    }
+
+    .table-container {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #fff; 
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 1000px; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .table-item {
+        font-size: 20px; 
+        margin-bottom: 10px;
+        color: #333; 
+        text-align: center; 
+    }
+</style>

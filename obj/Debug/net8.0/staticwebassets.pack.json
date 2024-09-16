@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tarea1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Tarea1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\wwwroot\\Imagenes\\Portada.JPG",
+      "PackagePath": "staticwebassets\\Imagenes\\Portada.JPG"
+    },
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\djter\\Programacion\\Tarea1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tarea1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Tarea1.props",
+      "PackagePath": "build\\Tarea1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Tarea1.props",
+      "PackagePath": "buildMultiTargeting\\Tarea1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Tarea1.props",
+      "PackagePath": "buildTransitive\\Tarea1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
